@@ -1,3 +1,13 @@
+---
+title: Update Home Drive Path
+description: 
+published: true
+date: 2023-11-05T23:45:15.545Z
+tags: powershell
+editor: markdown
+dateCreated: 2023-11-05T19:56:04.957Z
+---
+
 <!--
 title: Update AD Home Drive Path
 description: This script can be used to update the home path of AD users within a specific OU. It can be used after a file server migration where you are required to update the home path to reflect the new server.
