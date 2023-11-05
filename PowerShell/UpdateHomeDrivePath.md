@@ -9,7 +9,7 @@ dateCreated: 2023-11-05T17:20:06.721Z
 -->
 
 # Update AD Home Path
-This script can assist in updating a specific OU's AD user accounts to a server. In the example below, we'll assume $oldServer is the old server name and $newServer is the new server name. 
+This script can assist in updating a specific OU's AD user accounts to a server. In the example below, we'll assume $oldServer is the old server name and $newServer is the new server name. It will also create an output log of all of the changes made in the event something unexpected occurs and you need to manually intevere. 
 
 ```PowerShell
 Import-Module ActiveDirectory
