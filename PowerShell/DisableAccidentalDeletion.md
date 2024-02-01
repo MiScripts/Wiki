@@ -2,7 +2,7 @@
 title: Disable Accidental Deletion for AD OUs
 description: One of the first things I'll do in a controlled lab environment, or a sandbox, is to disable accidental deletion of OUs. This can save time in the long run, especially if you're working on scripts that may affect multiple OUs. 
 published: true
-date: 2024-02-01T01:37:02.795Z
+date: 2024-02-01T01:37:18.248Z
 tags: powershell, active directory, ous, sandbox, lab
 editor: markdown
 dateCreated: 2024-02-01T01:34:27.313Z
@@ -22,7 +22,7 @@ dateCreated: 2024-1-31
 One of the first things I'll do in a ***controlled*** lab environment, or a sandbox, is to disable accidental deletion of OUs. This can save time in the long run, especially if you're working on scripts that may affect multiple OUs. This allows you the flexibility to move OUs around as needed, in a lab, when required to do so quickly for testing. This is NOT to be used in a production Active Directory environment.
 
 ```PowerShell
-# Import the Active Directory module (if not already imported)
+# Import the Active Directory module
 Import-Module ActiveDirectory
 
 # Get a list of all OUs in Active Directory
