@@ -1,8 +1,8 @@
 ---
 title: Disable Accidental Deletion for AD OUs
-description: One of the first things I'll do in a *controlled* lab enviroment, or a sandbox, is to disable accidental deletion of OUs. This can save time in the long run, especially if you're working on scripts that may affect multiple OUs. 
+description: One of the first things I'll do in a controlled lab environment, or a sandbox, is to disable accidental deletion of OUs. This can save time in the long run, especially if you're working on scripts that may affect multiple OUs. 
 published: true
-date: 2024-02-01T01:36:42.749Z
+date: 2024-02-01T01:37:02.795Z
 tags: powershell, active directory, ous, sandbox, lab
 editor: markdown
 dateCreated: 2024-02-01T01:34:27.313Z
