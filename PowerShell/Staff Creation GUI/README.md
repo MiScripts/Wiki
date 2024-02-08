@@ -1,7 +1,6 @@
 # Staff Creation Frame
 Basic GUI based staff creation script for AD and Google!
-Feel free to adjust and change this to suit your needs!
-Also if you have any questions/concerns/need help let me know, I'll atleast hear you out!
+
 
 ## Requirements
 1. GAM - https://github.com/GAM-team/GAM
@@ -10,7 +9,7 @@ Also if you have any questions/concerns/need help let me know, I'll atleast hear
 ## Layout
 The funciton of this script is to add some semblence of structure on how you can add users and disable users, depending on your enviroment this script is meant to be customizable and highly sectional though you may need to play around with it some to figure out the sizing and column setups for the GUI.
 
-Also the StaffCreationSource should be in the same directory as the StaffCreationGUI
+StaffCreationSource should be in the same directory as the StaffCreationGUI
 
 The two main parts are followed:
 1. The GUI,
