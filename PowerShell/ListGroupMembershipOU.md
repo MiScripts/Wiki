@@ -1,14 +1,15 @@
 ---
 title: List AD Group Membership of Users in an OU
-description: Sometimes you find yourself needing to see which AD groups an OU of individuals belong to. This script assists with that! It will also allow you to include an excluded (or multiple) excluded groups, such as an all staff distribution list.
+description: A quick way to find group membership within a specific OU.
 published: true
-date: 2024-02-21T18:18:24.129Z
-tags: powershell
+date: 2024-02-21T18:39:23.692Z
+tags: powershell, active dire, groups
 editor: markdown
 dateCreated: 2024-02-21T18:18:24.129Z
 ---
 
-# Header
+# List AD Group Membership of Users in an OU
+Sometimes you find yourself needing to see which AD groups an OU of individuals belong to. This script assists with that! It will also allow you to include an excluded (or multiple) excluded groups, such as an all staff distribution list.
 ```powershell
 Import-Module ActiveDirectory
 
