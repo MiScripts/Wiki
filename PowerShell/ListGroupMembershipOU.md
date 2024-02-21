@@ -2,7 +2,7 @@
 title: List AD Group Membership of Users in an OU
 description: A quick way to find group membership within a specific OU.
 published: true
-date: 2024-02-21T18:52:01.897Z
+date: 2024-02-21T18:54:03.405Z
 tags: powershell, active dire, groups
 editor: markdown
 dateCreated: 2024-02-21T18:18:24.129Z
