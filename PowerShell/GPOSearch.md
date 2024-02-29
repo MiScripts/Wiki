@@ -2,7 +2,7 @@
 title: GPO Search
 description: Searching for a specific GPO (especially if you know the phrase) you're searching for can be very tedious. This script allows you to search for a phrase and find which policy it is apart of.
 published: true
-date: 2024-02-28T21:51:48.147Z
+date: 2024-02-29T02:35:21.987Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-28T21:51:48.147Z
@@ -12,7 +12,9 @@ dateCreated: 2024-02-28T21:51:48.147Z
 
 # GPO Search
 ```powershell
-# Search for a phrase within the GPO that you are looking for. This can be useful for file servers or searching for local workstation admin accounts, i.e., \\FILE01\ or 'Administrator'
+# Search for a phrase within the GPO that you are looking for. 
+# This can be useful for a file server or searching for local workstation admin accounts, i.e., \\FILE01\ or 'Administrator'
+
 $string = "\\FILE01\"
 
 $DomainName = $env:USERDNSDOMAIN
