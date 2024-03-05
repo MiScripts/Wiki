@@ -2,13 +2,14 @@
 title: Adding Members to YOG Groups
 description: 
 published: true
-date: 2024-03-04T17:10:00.136Z
+date: 2024-03-05T14:56:20.184Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-04T17:10:00.136Z
 ---
 
-# Header
+# Adding Students to YOG Groups
+
 ```powershell
 Function Add-StudentToGroup($GroupName, $StudentID) {
     try { 
