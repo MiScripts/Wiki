@@ -34,7 +34,6 @@
 .NOTES
     Created By: Bobby Hodges
     Date: 5/2/2023
-    Ticket Reference: WRNS-4745
     Requires: WhoisCL (https://www.nirsoft.net/utils/whoiscl.html)
 
 .LINK
