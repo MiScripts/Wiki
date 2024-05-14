@@ -2,12 +2,17 @@
 title: IDM Student Insert
 description:   The script relies on flat files being exported from your student information system (SIS) and would need to have the header values aligned with this list or the script tweaked to account for your header values. 
 published: true
-date: 2024-05-13T17:40:09.147Z
+date: 2024-05-14T19:45:48.454Z
 tags: sis, import script, idm
 editor: markdown
 dateCreated: 2024-05-13T17:40:09.147Z
 ---
 
+# IDM Student Insert 
+This is a sanitized version of the 'insert' script for an identity managment (IDM) project that was used for several years to support the creation of student accounts across 6 different school districts. I will work to sanitize and share the 'update' script and 'disable' script as well.
+
+ The script relies on flat files being exported from your student information system (SIS) and would need to have the header values aligned with this list or the script tweaked to account for your header values. My particular implementation had our data team 'massage' the SIS data a little bit before delivering the flat file to me, so your mileage may vary in how you adapt this to your district.
+  
 ```powershell
 <#
 .SYNOPSIS
