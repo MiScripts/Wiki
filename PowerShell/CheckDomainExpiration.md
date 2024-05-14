@@ -2,11 +2,13 @@
 title: Check Domain Expiration
 description: 
 published: true
-date: 2024-05-10T02:33:57.422Z
+date: 2024-05-14T18:47:22.642Z
 tags: powershell
 editor: markdown
 dateCreated: 2024-05-10T02:33:57.422Z
 ---
+
+# Check Domain Expiration
 
 ```powershell
 <#
