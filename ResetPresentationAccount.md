@@ -2,7 +2,7 @@
 title: Reset AD Presentation Account
 description: A service account used by a vendor, or presenter, during professional development days. This account is used frequently enough that we felt resetting the password weekly was a wise idea. 
 published: true
-date: 2024-05-14T18:59:26.666Z
+date: 2024-05-14T18:59:52.272Z
 tags: powershell, active directory, password reset
 editor: markdown
 dateCreated: 2024-05-14T18:59:26.666Z
@@ -28,7 +28,7 @@ This is a modified version of another script, Jim Stalbaum's  [Substitute/Coach 
   None - Password changes are performed directly in Active Directory and confirmation emails are sent to specified addresses.
 
 .NOTES
-  Version:        1.1
+  Version:        1.0
   Original Author: Rob Lane
   Creation Date:  5/5/2023
   Purpose/Change: Sanitized sensitive information for example usage.
