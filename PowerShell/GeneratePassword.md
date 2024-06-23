@@ -1,8 +1,8 @@
 ---
 title: Generate Password
-description:   This script provides a flexible way to generate passwords by allowing the user to specify the length and character set of the password. It can generate passwords using a combination of letters, numbers, and symbols.
+description: Generates a custom password based on user-specified criteria.
 published: true
-date: 2024-06-23T19:37:14.807Z
+date: 2024-06-23T19:37:36.206Z
 tags: 
 editor: markdown
 dateCreated: 2024-05-13T18:12:15.816Z
