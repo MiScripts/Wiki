@@ -2,7 +2,7 @@
 title: Update Home Drive Path
 description: 
 published: true
-date: 2023-11-05T23:45:15.545Z
+date: 2024-10-01T19:34:43.912Z
 tags: powershell
 editor: markdown
 dateCreated: 2023-11-05T19:56:04.957Z
@@ -22,6 +22,33 @@ dateCreated: 2023-11-05T17:20:06.721Z
 This script can assist in updating a specific OU's AD user accounts to a server. In the example below, we'll assume $oldServer is the old server name and $newServer is the new server name. It will also create an output log of all of the changes made in the event something unexpected occurs and you need to manually intevere. 
 
 ```PowerShell
+<#
+.SYNOPSIS
+  Updates the home drive mapping of Active Directory users from an old server to a new server.
+.DESCRIPTION
+  This script retrieves all users in a specified Organizational Unit (OU) and checks if their HomeDirectory is mapped to an old server. If the home drive is mapped to the old server, the script replaces the server name with the new one and updates the HomeDirectory attribute. It also logs each change to a log file.
+.PARAMETER oldServer
+    The name of the old server to be replaced in the HomeDirectory path.
+.PARAMETER newServer
+    The name of the new server to replace the old server in the HomeDirectory path.
+.PARAMETER ouName
+    The distinguished name of the Organizational Unit (OU) where the users are located.
+.PARAMETER logFile
+    The file path where log entries will be written.
+.INPUTS
+  None. The script retrieves users from Active Directory based on the specified OU.
+.OUTPUTS
+  Log file entries for each user whose home drive was updated.
+.NOTES
+  Version:        1.0
+  Author:         Rob Lane
+  Creation Date:  11/5/23
+  Purpose/Change: Initial script development.
+.EXAMPLE
+  Run the script to update home drives from 'oldserver' to 'newserver':
+    ./UpdateHomeDrive.ps1
+#>
+
 Import-Module ActiveDirectory
 
 # Set the name of the old server and the new server
