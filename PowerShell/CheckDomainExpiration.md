@@ -2,13 +2,15 @@
 title: Check Domain Expiration
 description: 
 published: true
-date: 2024-05-14T18:47:22.642Z
+date: 2024-10-01T17:50:22.434Z
 tags: powershell
 editor: markdown
 dateCreated: 2024-05-10T02:33:57.422Z
 ---
 
 # Check Domain Expiration
+
+This script checks the expiration dates of domain names listed in a file and generates a report. It uses the WhoisCL.exe tool to query domain expiration dates, retrying up to three times if an error occurs. Expiration details for each domain are categorized into those expiring soon, already expired, or not expiring yet, and are then formatted into an HTML report. The report is emailed to a specified recipient using the Send-MailMessage cmdlet, including counts for expiring, expired, and all domains. The script also handles missing files and errors gracefully.
 
 ```powershell
 <#
